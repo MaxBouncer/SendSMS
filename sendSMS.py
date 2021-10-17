@@ -110,7 +110,7 @@ class Send_SMS():
 #     # customer_id = ""
 #     # api_key = ""
 
-#     # phone_number = "5521988857740"
+#     # phone_number = ""
 #     # message_type = "ARN"
 
 
