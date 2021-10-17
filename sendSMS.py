@@ -90,14 +90,14 @@ class Send_SMS():
 #             mensagem = (f'\nHoje tem emoção, hoje tem jogo do Mengão!\nàs {hora}h teremos a partida {partida} \
 #         pela {nrodada}º rodada do campeonato Brasileiro. {man_nome} vs {vis_nome} no estádio do {local}')
 
-#             smsTwilio("+5521988857740", mensagem)
+#             smsTwilio("", mensagem)
 #             # Enviando SMS pelo Twilio
-#             # account_sid = 'AC779b799fe7de1a2d401e39481bcbc2b5'
-#             # auth_token = 'bee820ced83f4cc1c8d995f961190541'
+#             # account_sid = ''
+#             # auth_token = ''
 #             # client = Client(account_sid, auth_token)
 #             # client.api.account.messages.create(
-#             #     to="+5521988857740",
-#             #     from_="+17744694766",
+#             #     to="+",
+#             #     from_="+",
 #             #     body=mensagem,
 #             # )
 #             logging.info('Mensagem SMS enviada.1')
@@ -107,8 +107,8 @@ class Send_SMS():
 #             logging.debug('Não há SMS à ser enviada. (Não há jogos).')
 
 #     # # Enviando SMS pelo TeleSign
-#     # customer_id = "1E2BA3B0-2374-4C2C-B0F7-3E54D07D1268"
-#     # api_key = "iT44RGsfQtvUl5v2ywU5Ca8TiykfwARR18GfxxRikJnIBsZAhcum8ilQwWo/6TnZewSCJ8UQJulmaIu0W8Rr2Q=="
+#     # customer_id = ""
+#     # api_key = ""
 
 #     # phone_number = "5521988857740"
 #     # message_type = "ARN"
